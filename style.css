@@ -4,7 +4,7 @@
 }
 
 html{
-    background-color: #1D1E3E;
+    background-color: #FFFFFF;
     display:inline-block !important;
 }
 
@@ -85,13 +85,13 @@ h1{
 
 
 .accessform{
-    background-color:rgba(0,0,0,0.8);
+    background-color:rgba(207,207,207,0.8);
     text-align:center;
     margin:5% auto;
     width:90%;
     border: none;
     border-radius:25px 80px;
-    color: #fff;
+    color: #000;
     font-size: 1em;
     padding: 10px 50px;
     text-transform: uppercase;
@@ -108,7 +108,7 @@ form #question{
     height:60px;
     margin: 0 0 15px 0;
     border-radius:50px;
-    border:none;
+    border:1px solid black;
 }
 
 form .submit{
@@ -272,31 +272,31 @@ form .submit:hover{
 .question hr{
     clear:both;
 }
-.animate { 
-    -webkit-animation: animatezoom 0.6s; 
-    animation: animatezoom 0.6s 
-} 
-  
-@-webkit-keyframes animatezoom { 
-    from {-webkit-transform: scale(0)}  
-    to {-webkit-transform: scale(1)} 
-} 
-    @keyframes animatezoom { 
-    from {transform: scale(0)}  
-    to {transform: scale(1)} 
-} 
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
 
-@media only screen and (max-width: 300px) { 
-    span.psw { 
-       display: block; 
-       float: none; 
-    } 
-    .cancelbtn { 
-       width: 100%; 
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+    @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+@media only screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
     }
 }
 
-@media only screen and (max-width: 850px) { 
+@media only screen and (max-width: 850px) {
     .topmenu{text-align:center;}
     .topmenu h2{display:none;}
     .topmenu form{display:inline-block !important;}
@@ -308,5 +308,5 @@ form .submit:hover{
         height:100%;
         width:100%;
         border-radius:0;
-    }    
+    }
 }
