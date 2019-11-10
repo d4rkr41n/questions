@@ -2,6 +2,11 @@
 
 type mysql >/dev/null 2>&1 && echo "Sql Installation Found -- Moving on" || echo "Pls install mysql" && exit
 
+sudo apt-get install php php-cgi libapache2-mod-php php-common php-pear php-mbstring -y
+sudo a2enconf php7.2-cgi
+sudo systemctl reload apache2.service
+
+
 echo "----------------------------"
 read -p "SQL User: " DBUSER
 read -s -p "SQL Pass: " DBPASS
